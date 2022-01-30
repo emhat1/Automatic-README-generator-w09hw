@@ -1,5 +1,3 @@
-## Automatic README generator
-
 # Automated README file generator
 
   ## Description
