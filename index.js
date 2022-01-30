@@ -6,7 +6,6 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    .prompt([
         {
             type: 'input',
             name: 'projectTitle',
@@ -48,7 +47,7 @@ const questions = [
             type: 'input',
             name: 'projectEmail',
             message: 'What is your preferred email address?',
-      ])
+      ]),
 
 ];
 
