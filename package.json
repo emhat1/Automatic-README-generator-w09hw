@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^8.2.0"
-  }
+  },
+  "name": "inquirer",
+  "description": "Best practice when creating open-source projects is to include a detailed README file that describes the purpose of the app, installation requirements and instructions, Usage guidelines, information on contributions, license informtion and other contact information.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emhat1/Automatic-README-generator-w09hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emhat1/Automatic-README-generator-w09hw/issues"
+  },
+  "homepage": "https://github.com/emhat1/Automatic-README-generator-w09hw#readme"
 }
