@@ -56,7 +56,7 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(fileName);
     console.log(data);
-    var data = generateMD(data);
+    var data = generateMarkdown(data);
     fs.writeFile(fileName, data, (err) => {
         err ? console.error(err) : console.log('You have created a new README.md file')
     })
