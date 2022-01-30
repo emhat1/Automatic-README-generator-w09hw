@@ -1,16 +1,33 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  
+  function renderLicenseLink(projectLicense) {
+    switch (projectLicense) {
+      case 'None':
+          return "";
+          break;
+      case 'MIT':
+          return 'https://www.includehelp.com/foss/Images/mit.jpg';
+          break;
+      case 'BSD':
+          return 'https://820534.smushcdn.com/1599965/wp-content/uploads/2018/05/bsd-new-e1525318024116.png';
+          break;
+      case 'Apache 2.0':
+          return 'http://www.activesplit.com/wp-content/uploads/2010/03/apache-logo.jpg';
+          break;
+  }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
