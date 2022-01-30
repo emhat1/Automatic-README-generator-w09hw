@@ -44,7 +44,7 @@ function renderLicenseSection(projectLicense) {
 
 // Generation of markdown for README
 function generateMarkdown(data) {
-    const githubPage = `https://github.com/${data.username}`
+    const githubPage = `https://github.com/${data.projectUsername}`
 
   return `# ${data.projectTitle}
 
