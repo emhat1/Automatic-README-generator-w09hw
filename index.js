@@ -7,39 +7,52 @@ const inquirer = require('inquirer');
 const questions = [
     .prompt([
         {
-          name: 'projectTitle',
-          message: 'What is the name of your project?',
-          default: 'New project'
+            type: 'input',
+            name: 'projectTitle',
+            message: 'What is the name of your project?',
+            default: 'New project'
         },
         {
-          name: 'projectDescription',
-          message: 'Please describe the purpose of the project',
-          default: 'To make something easier'
+            type: 'input',
+            name: 'projectDescription',
+            message: 'Please describe the purpose of the project',
+            default: 'To make something easier'
         },
         {
+            type: 'input',
             name: 'projectRequirements',
             message: 'Please describe what is required to run the project, eg packages',
             default: 'No additional packages needed'
         },
         {
+            type: 'input',
             name: 'projectUsage',
             message: 'What does the user need to know about running the project?',
             default: 'Run from terminal using nodejs'
         },
         {
+            type: 'list',
             name: 'projectLicense',
             message: 'What license does this project fall under?',
-            default: 'OpenSource'
+            choices: ['Apache', 'MIT', 'BSD', 'Unlicensed'],
         },
         {
+            type: 'input',
             name: 'projectContribution',
             message: 'Please describe how to contribute to this project',
-            default: 'To contrubute please email E.Hatherell@gmail.com'
+            default: 'Please contribute'
         },
         {
+            type: 'input',
             name: 'projectUsername',
             message: 'What is your github username?',
             default: 'emhat1'
+        },
+        {
+            type: 'input',
+            name: 'projectEmail',
+            message: 'What is your preferred email address?',
+            default: 'e.hatherell@gmail.com'
         },
       ])
 
