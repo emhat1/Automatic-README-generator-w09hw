@@ -3,7 +3,7 @@
 // Call up required packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require(".generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // Questions for user input to generate the file
