@@ -3,6 +3,8 @@
 // Call up required packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require(".generateMarkdown.js");
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -47,8 +49,7 @@ const questions = [
             type: 'input',
             name: 'projectEmail',
             message: 'What is your preferred email address?',
-      ]),
-
+        },
 ];
 
 // TODO: Create a function to write README file
